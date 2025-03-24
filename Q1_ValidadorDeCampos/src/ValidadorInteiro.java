@@ -1,6 +1,10 @@
 
 
 public class ValidadorInteiro implements ValidadorInterface {
+
+    public ValidadorInteiro(){}
+
+
     @Override
     public boolean valida(String valor) {
         for(int i=0;i<valor.length();i++){
